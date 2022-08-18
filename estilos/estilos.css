@@ -6,61 +6,18 @@
     box-sizing: border-box;
 }
 
-header {
-    background: linear-gradient(to left, rgb(224,153,31), rgb(165,100,1));
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-header h1 {
+ h1 {
     color: rgba(116, 79, 15, 0.836);
     padding: 30px;
+    margin-top: 20%;
     margin: 40px 40px 40px 40px;
     border: 10px solid black;
     transition: ease-in-out 5s;
 }
 
-header h1:hover{
+h1:hover{
     border: 10px solid black;
-}
-
-nav {
-    height: 100vh;
-}
-
-ul {
-    height: 60%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-a {
-    text-decoration: none;
-    color: aliceblue;
-    margin-left: 30px;
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-a:hover{
-    position: relative;
-    transition-duration: 1s;
-    text-align: left;
-    background-color: burlywood;
-}
-
-li {
-    list-style: none;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
 }
 
 body {
@@ -271,30 +228,9 @@ footer img {
     h2 {
         font-size: 2rem;
     }
-    li {
-        list-style: none;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-family: 'Roboto', sans-serif;
-    }
+       
 
-    header {
-        background-color: rgb(247, 177, 57);
-        width: 100%;
-        height: 25vh;
-        padding: 0 1rem;
-        padding-top: 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    header h1 {
+    h1 {
         color: rgb(0, 0, 0);
         padding: 30px;
         width: 100%;
@@ -302,27 +238,7 @@ footer img {
         border: 10px solid white;
     }
 
-    header nav {
-        height: 100%;
-        width: 100%;
-    }
-
-    header ul {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    header li {
-        font-size: 1rem;
-    }
-    header a {
-        width: 100%;
-        margin: 0;
-        font-size: 1rem;
-    }
+   
     
     .sectiontercerparrafo{
         text-align: justify;
