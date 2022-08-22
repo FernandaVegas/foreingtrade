@@ -34,6 +34,7 @@ section {
     height: 100%;
 }
 
+
 .sectionprimera {
     grid-area: primeraparte;
 }
@@ -195,11 +196,12 @@ section {
     height: 70rem;
 }
 
-.flexbox{
-    display: flex;
+.padre{
     justify-content: center;
+    display: flex;
     align-items: center;
 }
+
 
 
 
