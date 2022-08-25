@@ -27,9 +27,17 @@ h1 {
   border: 10px solid black;
   transition: ease-in-out 5s;
 }
-
-h1:hover {
+h1 hover {
   border: 10px solid black;
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    width: 100%;
+    margin: 0;
+    border: 10px solid white;
+  }
 }
 
 .sectionprimera {
@@ -191,13 +199,6 @@ h1:hover {
   }
   h2 {
     font-size: 2rem;
-  }
-  h1 {
-    color: rgb(0, 0, 0);
-    padding: 30px;
-    width: 100%;
-    margin: 0;
-    border: 10px solid white;
   }
   .sectiontercerparrafo {
     text-align: justify;
